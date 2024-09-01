@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="GitHub" fetch="https://github.com" />
+    <remote name="Gitea" fetch="https://gitea.com" />>
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/munch" name="bayuarindra/android_device_xiaomi_munch" remote="GitHub" revision="14" clone-depth="1" />
+    <project path="device/xiaomi/sm8250-common" name="bayuarindra/android_device_xiaomi_sm8250-common" remote="GitHub" revision="14" clone-depth="1" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8250" name="bayuarindra/kernel_xiaomi_sm8250" remote="GitHub" revision="14" clone-depth="1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/munch" name="bayuarindra/android_vendor_xiaomi_munch" remote="Gitea" revision="14" clone-depth="1" />
+    <project path="vendor/xiaomi/sm8250-common" name="bayuarindra/android_vendor_xiaomi_sm8250-common" remote="Gitea" revision="14" clone-depth="1" />
+
+    <!-- Add-ons -->
+    <project path="vendor/xiaomi/miuicamera" name="bayuarindra/android_vendor_xiaomi_miuicamera" remote="Gitea" revision="14" clone-depth="1" />
+    <project path="packages/apps/KProfiles" name="TheParasiteProject/packages_apps_KProfiles" remote="GitHub" revision="main" clone-depth="1" />
+    <project path="hardware/xiaomi" name="bayuarindra/hardware_xiaomi" remote="GitHub" revision="14" clone-depth="1" />
+	<project path="hardware/dolby" name="bayuarindra/android_hardware_dolby" remote="GitHub" revision="14" clone-depth="1" />
+
+</manifest>
