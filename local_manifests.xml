@@ -3,7 +3,8 @@
 
     <!-- Remotes -->
     <remote name="GitHub" fetch="https://github.com" />
-    <remote name="Gitea" fetch="https://gitea.com" />>
+    <remote name="Gitea" fetch="https://gitea.com" />
+	<remote name="Gitlab" fetch="https://gitlab.com" />
 
     <!-- Repos -->
     <!-- Device -->
@@ -14,8 +15,8 @@
     <project path="kernel/xiaomi/sm8250" name="bayuarindra/kernel_xiaomi_sm8250" remote="GitHub" revision="14" clone-depth="1" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/munch" name="bayuarindra/android_vendor_xiaomi_munch" remote="Gitea" revision="14" clone-depth="1" />
-    <project path="vendor/xiaomi/sm8250-common" name="bayuarindra/android_vendor_xiaomi_sm8250-common" remote="Gitea" revision="14" clone-depth="1" />
+    <project path="vendor/xiaomi/munch" name="Mudit200408/vendor_xiaomi_munch" remote="Gitlab" revision="14" clone-depth="1" />
+    <project path="vendor/xiaomi/sm8250-common" name="Mudit200408/vendor_xiaomi_sm8250-common" remote="Gitlab" revision="14" clone-depth="1" />
 
     <!-- Add-ons -->
     <project path="vendor/xiaomi/miuicamera" name="bayuarindra/android_vendor_xiaomi_miuicamera" remote="Gitea" revision="14" clone-depth="1" />
